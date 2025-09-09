@@ -196,6 +196,6 @@
   /* Project Cards */
   .project-card {
     @apply card-elevated overflow-hidden;
-    @apply group hover:scale-105 transition-transform duration-300;
+    @apply hover:scale-105 transition-transform duration-300;
   }
 }
