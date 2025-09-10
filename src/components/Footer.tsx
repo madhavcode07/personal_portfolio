@@ -43,7 +43,7 @@ const Footer = () => {
               <h3 className="font-semibold mb-4 text-neutral-100">Connect</h3>
               <div className="space-y-4">
                 <a
-                  href="https://github.com/madhavan"
+                  href="https://github.com/madhavcode07"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-neutral-300 hover:text-primary transition-colors duration-200 group"
@@ -56,7 +56,8 @@ const Footer = () => {
                 
                 <div className="mt-6">
                   <a 
-                    href="#" 
+                    href="/lovable-uploads/22ed333b-d0af-48ba-86dd-0b49ebcf90c6.png"
+                    download="Madhavan_M_Resume.png"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary-hover transition-colors"
                   >
                     Download Resume

@@ -35,7 +35,8 @@ const Hero = () => {
             {/* Quick Links */}
             <div className="flex items-center gap-6 justify-center lg:justify-start">
               <a 
-                href="#" 
+                href="/lovable-uploads/22ed333b-d0af-48ba-86dd-0b49ebcf90c6.png" 
+                download="Madhavan_M_Resume.png"
                 className="flex items-center gap-2 text-foreground-muted hover:text-primary transition-colors"
                 title="Download Resume"
               >
@@ -43,7 +44,7 @@ const Hero = () => {
                 <span>Resume</span>
               </a>
               <a 
-                href="https://github.com/madhavan" 
+                href="https://github.com/madhavcode07" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-foreground-muted hover:text-primary transition-colors"

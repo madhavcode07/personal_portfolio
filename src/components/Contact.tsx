@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Github, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Github, Mail, Phone, MapPin, Send, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -47,25 +47,31 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/madhavan',
-      href: 'https://github.com/madhavan'
+      value: 'github.com/madhavcode07',
+      href: 'https://github.com/madhavcode07'
+    },
+    {
+      icon: Linkedin,
+      label: 'LinkedIn',
+      value: 'linkedin.com/in/maddy-madhavan',
+      href: 'https://www.linkedin.com/in/maddy-madhavan-24770b2a8'
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'madhavan@example.com',
-      href: 'mailto:madhavan@example.com'
+      value: 'madhavanmohan2210@gmail.com',
+      href: 'mailto:madhavanmohan2210@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 XXXXX XXXXX',
-      href: 'tel:+91XXXXXXXXX'
+      value: '+91 9360492302',
+      href: 'tel:+919360492302'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Tamil Nadu, India',
+      value: 'Chennai, Tamil Nadu',
       href: '#'
     }
   ];
@@ -104,8 +110,8 @@ const Contact = () => {
                     <a
                       key={index}
                       href={info.href}
-                      target={info.label === 'GitHub' ? '_blank' : undefined}
-                      rel={info.label === 'GitHub' ? 'noopener noreferrer' : undefined}
+                      target={info.label === 'GitHub' || info.label === 'LinkedIn' ? '_blank' : undefined}
+                      rel={info.label === 'GitHub' || info.label === 'LinkedIn' ? 'noopener noreferrer' : undefined}
                       className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
                     >
                       <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -129,7 +135,7 @@ const Contact = () => {
                     Explore my projects, contributions, and coding journey on GitHub.
                   </p>
                   <a 
-                    href="https://github.com/madhavan" 
+                    href="https://github.com/madhavcode07" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn-hero-primary w-full justify-center"
