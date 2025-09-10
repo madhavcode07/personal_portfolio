@@ -62,7 +62,7 @@ const Hero = () => {
                 <img 
                   src="/lovable-uploads/728ab4f4-35dc-435f-aa58-ed37bd4452e9.png" 
                   alt="Madhavan M - Full Stack Developer"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               {/* Decorative elements */}
