@@ -1,5 +1,4 @@
 import { ArrowDown, Download, Github } from 'lucide-react';
-import profileImage from '../assets/madhavan-profile.jpg';
 
 const Hero = () => {
   return (
@@ -61,7 +60,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-hero relative z-10">
                 <img 
-                  src={profileImage} 
+                  src="/lovable-uploads/728ab4f4-35dc-435f-aa58-ed37bd4452e9.png" 
                   alt="Madhavan M - Full Stack Developer"
                   className="w-full h-full object-cover"
                 />
